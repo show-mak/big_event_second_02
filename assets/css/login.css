@@ -18,7 +18,7 @@ html {
     position: fixed;
     width: 400px;
     height: 310px;
-    background-color: #f5f5f5;
+    background-color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(70%, -50%);
@@ -29,7 +29,29 @@ html {
 
 .titleBox {
     width: 100%;
-    height: 60px;
+    height: 80px;
     background: url(/assets/images/login_title.png) no-repeat center;
+}
 
+.layui-form {
+    padding: 0px 30px 0;
+}
+
+.exchange {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 35px;
 }
