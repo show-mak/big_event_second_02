@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+.layui-card {
+    width: 500px;
+}
